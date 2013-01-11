@@ -1,6 +1,6 @@
 ; @layout  post
-; @title   Sample components
-; @tag     tag1 tag2
+; @title   Sample components (Test post)
+; @tag     clojure
 
 (h2 "Link")
 #-CLJ

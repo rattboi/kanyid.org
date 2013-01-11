@@ -48,7 +48,7 @@
     (link "github" "https://github.com/rattboi")
     )
   
-  (img "/img/poweredby-misaki.png"))
+  (link (img "/img/poweredby-misaki.png") "https://github.com/liquidz/misaki"))
 
  ; /container
 

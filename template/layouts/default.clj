@@ -32,7 +32,7 @@
 [:body
 
  ; github ribbon
- ;(github-ribbon "https://github.com/liquidz/misaki")
+ (github-ribbon "https://github.com/rattboi/kanyid.org")
 
  (container
   (page-header :h1 (:site-title site) "/" ) 

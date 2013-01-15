@@ -54,5 +54,6 @@
 
  (absolute-js ["/js/prettify.js"
                "/js/lang-clj.js"
+               "/js/lang-lisp.js"
                (:js site ())])]
 ; /body

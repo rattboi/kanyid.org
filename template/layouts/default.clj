@@ -8,6 +8,16 @@
      [heading title]
      [:a {:href (first link)} [heading title]])])
 
+(defn nav-section [twitter-name]
+  [:p
+    (str "// rattboi / ")
+    (link (str "@" twitter-name) (str "http://twitter.com/" twitter-name))
+    (str " / ")
+    (link "rss" "atom.xml")
+    (str " / ")
+    (link "github" "https://github.com/rattboi")
+    (str " / ")
+    (link "resume" "https://github.com/rattboi/resume/raw/master/resume.pdf")])
 [:head
  [:meta {:charset (:charset site)}]
  [:meta {:name    "viewport"
@@ -35,18 +45,15 @@
  (github-ribbon "https://github.com/rattboi/kanyid.org")
 
  (container
-  (page-header :h1 (:site-title site) "/" ) 
+  [:div {:style "overflow: hidden"}
+    (page-header :h1 (:site-title site) "/" )
+    [:div {:style "float: left; margin: 2px 0px 0px 30px;"}
+      (nav-section (:twitter site))]
+  ]
 
   contents
 
-  (footer
-    (str "// rattboi / ")
-    (link (str "@" (:twitter site)) (str "http://twitter.com/" (:twitter site)))
-    (str " / ")
-    (link "rss" "atom.xml")
-    (str " / ")
-    (link "github" "https://github.com/rattboi")
-    )
+  (footer (nav-section (:twitter site)))
   
   (link (img "/img/poweredby-misaki.png") "https://github.com/liquidz/misaki"))
 

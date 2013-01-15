@@ -3,8 +3,8 @@
 
 ;; ///// FUNCTIONS //////
 
-;(defn my-post-date []
-;  [:div {:class "date"} (misaki.util.date/date->string (:date site))])
+;;(defn my-post-date []
+;;  [:div {:class "date"} (misaki.util.date/date->string (:date site))])
 
 (defn post-header [heading title & link]
  [:div {:class "page-header"}
@@ -31,7 +31,7 @@
 ;; ///// TEMPLATE //////
 
 [:article 
- ; previous/next post
+ ;; previous/next post
  ;; (prev-next-post-link)
 
  [:div {:class "post"}

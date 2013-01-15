@@ -11,12 +11,12 @@
 (h2 "Installation")
 
 (p "I'm going to assume you're coming from vim, like me, and have a fresh emacs install. As I understand it, starting at emacs version 24, a package management system is built in. This is called " (link "packages.el" "http://emacswiki.org/emacs/ELPA") ". Unfortunately, the default package repository that comes with emacs is very limited, and doesn't offer the evil-mode package. On first run of emacs, it will create a directory called .emacs.d in your homedir. Adding the following lines to ~/.emacs.d/init.el (which you will need to create) will add the 'marmalade' repository, which offers many more packages.")
-#-CODE
+##LISP
 (require 'package)
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
-CODE
+LISP
 
 (p "Now re-open emacs, and type the following:")
 #-CODE
@@ -31,10 +31,10 @@ CODE
 
 (p "Packages.el's interface seems a little goofy to me, but the 15-second guide is as follows: pressing 'i' next to a package name will queue it for installation, and pressing 'x' will execute your queue, installing those packages. So press 'i' next to evil, then press 'x'. When prompted to install evil, type 'yes'. Emacs will fetch and compile evil-mode from marmalade's repository. When it's finished, you will see that it says 'Done' in the status line at the bottom.")
 (p "At this point, quit emacs again, and we'll add the evil-mode initialization to '~/.emacs.d/init.el', below the package init code we added earlier.")
-#-CODE
+##LISP
 (require 'evil)
 (evil-mode 1)
-CODE
+LISP
 (p "Alright, all the initialization should be done at this point. Start emacs. You're in evil-mode!")
 
 (h2 "Using evil-mode")

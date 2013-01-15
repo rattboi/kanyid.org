@@ -54,7 +54,7 @@
  ;       :pretty-print true}
 
  ;; highlight setting
- :code-highlight {:CLJ "lang-clj", :CLOJURE "lang-clj"}
+ :code-highlight {:CLJ "lang-clj", :CLOJURE "lang-clj", :LISP "lang-lisp"}
 
  ;; flag for detailed log
  ;;   default value: false

@@ -13,7 +13,7 @@
     (str "// rattboi / ")
     (link (str "@" twitter-name) (str "http://twitter.com/" twitter-name))
     (str " / ")
-    (link "rss" "atom.xml")
+    (link "rss" "//kanyid.org/atom.xml")
     (str " / ")
     (link "github" "https://github.com/rattboi")
     (str " / ")

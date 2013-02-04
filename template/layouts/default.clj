@@ -53,9 +53,18 @@
 
   contents
 
-  (footer (nav-section (:twitter site)))
+;;  (footer (nav-section (:twitter site)))
+
+  (footer  (p {:class "pager"}
+    (if-let [url (:prev-page site)]
+      (link "« Previous page" url)) 
+    (if (and (:prev-page site) (:next-page site))
+      (str  " | ")) 
+    (if-let [url (:next-page site)]
+      (link "Next page »" url)))) 
   
-  (link (img "/img/poweredby-misaki.png") "https://github.com/liquidz/misaki"))
+;;  (link (img "/img/poweredby-misaki.png") "https://github.com/liquidz/misaki"))
+  ) 
 
  ; /container
 

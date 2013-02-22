@@ -2,6 +2,18 @@
 ; @format html5
 
 ;; Your own function in template
+(defn post-header [heading title & link]
+ [:div {:class "page-header"}
+  ; post title
+  (if (nil? link)
+    [heading title]
+    [:a {:href (first link)} [heading title]])
+  ; post tags
+  (post-tags)
+  ; post date
+  (post-date)
+  ])
+
 (defn page-header [heading title & link]
   [:div {:class "page-title"}
    (if (nil? link)

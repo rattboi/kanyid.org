@@ -2,21 +2,6 @@
 ; @title   post default title
 
 ;; ///// FUNCTIONS //////
-
-;;(defn my-post-date []
-;;  [:div {:class "date"} (misaki.util.date/date->string (:date site))])
-
-(defn post-header [heading title & link]
- [:div {:class "page-header"}
-  ; post title
-  (if (nil? link)
-    [heading title]
-    [:a {:href (first link)} [heading title]])
-  ; post tags
-  (post-tags)
-  ; post date
-  (post-date)
-  ])
   
 (defn disqus [username]
  [:div {:id "disqus_thread"}

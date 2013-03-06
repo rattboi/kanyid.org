@@ -2,13 +2,13 @@
 ; @title  Movie List
 ; @tag    personal
 
+(defn movie [title]
+  (list title " " (link "IMDB" (str "http://www.imdb.com/find?q=" title "&s=tt&ttype=ft&exact=true&ref_=fn_tt_ex"))))
+
 (p "Well, this is my first more personal post on the site. It's just a short list of movies that I am planning to watch with a few friends from school.")
 
-(ul (list (link "Freddie Got Fingered" 
-                "http://www.imdb.com/title/tt0240515/")
-          (link "Legend of Drunken Master" 
-                "http://www.imdb.com/title/tt0111512/")
-          (link "Black Dynamite" 
-                "http://www.imdb.com/title/tt1190536/?ref_=sr_1")
-          
-          ))
+(ul (list (movie "The Legend of Drunken Master")
+          (movie "Black Dynamite")
+          (movie "Seven Psychopaths")
+          (movie "The Fall")
+          (movie "Freddy Got Fingered")))

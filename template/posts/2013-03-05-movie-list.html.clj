@@ -16,4 +16,5 @@
           (movie "Snatch")
           (movie "Trainspotting")
           (movie "Oldboy")
+          (movie "Fear and Loathing in Las Vegas")
           (movie "Freddy Got Fingered")))

@@ -12,6 +12,7 @@
 
 (ul (list (movie "The Legend of Drunken Master")
           (movie "Black Dynamite")
+          (watched (movie "They Live"))
           (movie "Seven Psychopaths")
           (movie "The Fall")
           (movie "Conspirators of Pleasure")

@@ -10,7 +10,7 @@
 
 (p "Well, this is my first more personal post on the site. It's just a short list of movies that I am planning to watch with a few friends from school.")
 
-(ul (list (movie "The Legend of Drunken Master")
+(ul (list (watched (movie "The Legend of Drunken Master"))
           (movie "Black Dynamite")
           (watched (movie "They Live"))
           (watched (movie "Seven Psychopaths")) 

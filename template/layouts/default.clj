@@ -29,7 +29,7 @@
     (str " / ")
     (link "github" "https://github.com/rattboi")
     (str " / ")
-    (link "resume" "https://github.com/rattboi/resume/raw/master/resume.pdf")])
+    (link "resume" "https://rawgithub.com/rattboi/resume/master/resume.pdf")])
 [:head
  [:meta {:charset (:charset site)}]
  [:meta {:name    "viewport"

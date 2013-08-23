@@ -13,7 +13,7 @@
 (defn preview-post [{:keys [url title tag date file]}]
   [:div {:class "post"}
    (post-header :h1 title url)
-   (take 10 (trim file))
+   (take 6 (trim file))
    [:p {:class "topmargin"} (link "[more...]" url)]])
 
 (defn preview-posts [site]

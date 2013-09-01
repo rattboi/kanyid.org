@@ -51,7 +51,7 @@
 
  ;; post number per page
  ;;   default value: nil (disabled pagination)
- :posts-per-page 3
+ :posts-per-page 5
 
  ;; filename format to generate index file with pagination
  ;;   default value: "page{{page}}/{{filename}}"

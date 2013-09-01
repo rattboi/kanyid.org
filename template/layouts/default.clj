@@ -33,7 +33,7 @@
 [:head
  [:meta {:charset (:charset site)}]
  [:meta {:name    "viewport"
-         :content "width=device-width, initiali-scale=1.0, user-scalable=yes"}]
+         :content "width=device-width, initial-scale=1.0, user-scalable=yes"}]
 
  [:title
   (if (= (:title site) "home")

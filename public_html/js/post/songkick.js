@@ -25,7 +25,7 @@ var genConcertHTML = function(json)
     document.getElementById('songkick').innerHTML = myHTML;
     console.log(json);
 }
-var songkick_call = "http://api.songkick.com/api/3.0/users/rattboi/calendar.json?reason=attendance&apikey=lb0mq3HKVI4Ko5ge";
+var songkick_call = "https://api.songkick.com/api/3.0/users/rattboi/calendar.json?reason=attendance&apikey=lb0mq3HKVI4Ko5ge";
 var script = document.createElement('script');
 script.src = songkick_call + "&jsoncallback=genConcertHTML";
 document.getElementsByTagName('head')[0].appendChild(script);

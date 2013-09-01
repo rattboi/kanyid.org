@@ -5,7 +5,7 @@
 (defn songkick-content []
   (p {:id "songkick"} (js "/js/post/songkick.js")))
 
-(p (link "Songkick" "https://www.songkick.com/") " is a music service that finds local concerts based on your personal tastes. You give it some info about what you like, either through an exported iTunes library , Pandora playlist, or Last.fm scrobble history, tell it where you're interested in going, and it lets you know who is playing and where. I've been a happy user for at least two years now, and it's a really good tool for tracking tours and " (link "concert history." "https://www.songkick.com/users/rattboi/gigography"))
+(p (link "Songkick" "https://www.songkick.com/") " is a music service that finds local concerts based on your personal tastes. You give it some info about what you like, either through an exported iTunes library, Pandora playlist, or Last.fm scrobble history, tell it where you're interested in going, and it lets you know who is playing and where. I've been a happy user for at least two years now, and it's a really good tool for tracking tours and " (link "concert history." "https://www.songkick.com/users/rattboi/gigography"))
 
 (h2 "Requesting an API Key")
   (p "For all the aspects I enjoy about Songkick, I found it somewhat difficult directing people to my " (link "Upcoming Events calendar" "https://www.songkick.com/users/rattboi/calendar" ) ". They don't seem to offer any pre-configured way to embed the content in other places, but " (link "they do offer an API now" "https://www.songkick.com/developer" ) ". I requested an API key, and went to work trying to embed my Upcoming Events calendar into this blog post.")
@@ -18,13 +18,11 @@
 
 #-CODE
 // callback used to process the JSONP object
-var genConcertHTML = function(json)
-{
+var genConcertHTML = function(json) {
     var myHTML = ''
 
     // iterate through the entries in the results
-    for  var entry = 0, entries = json.resultsPage.totalEntries; entry < entries; entry++)
-    {
+    for (var entry = 0, entries = json.resultsPage.totalEntries; entry < entries; entry++) {
         // grab the elements we are interested in
         var event = json.resultsPage.results.calendarEntry[entry].event;
         var reason = json.resultsPage.results.calendarEntry[entry].reason;
@@ -39,8 +37,7 @@ var genConcertHTML = function(json)
 
         // further iterate through the artists at a concert and generate an unordered list
         myHTML += '<ul>'
-        for  var perf = 0, perfs = event.performance.length; perf < perfs; perf++)
-        {
+        for (var perf = 0, perfs = event.performance.length; perf < perfs; perf++) {
             var artist = event.performance[perf].artist;
             var name = artist.displayName;
             var band_uri = artist.uri;

@@ -49,7 +49,7 @@ var genConcertHTML = function(json) {
 }
 
 // setup Songkick API call
-var sk_base     = "http://api.songkick.com/api/3.0/users/<user>/";
+var sk_base     = "https://api.songkick.com/api/3.0/users/<user>/";
 var sk_method   = "calendar.json?reason=attendance";
 var sk_apikey   = "<apikey>";
 var sk_callback = "&jsoncallback=genConcertHTML"; 

@@ -1,6 +1,13 @@
 language: clojure
 lein: lein2
 script: lein2 with-profile dev misaki --compile
+after_success: bundle exec travis-custom-deploy sftp public_html
 jdk:
-  - openjdk7
-  - oraclejdk7
+- openjdk7
+- oraclejdk7
+env:
+  global:
+  - secure: IVCgJtqCr2rZLIYoN3Yqns9YzXESJFTqupTp7R3KPb1EJTFmN5N2uB375TPkDB4lX+RgHSjE6dB6iXFtLKbGwbu0CoLKCT0Vpb2gRiuSTATi6C/dKYO6BtWMxgCrVn1Ss6a6GSdEHGOWVSqcbxP9XYnWsWoeu1fPkBOGo8k6Ky4=
+  - secure: WmSzZG/AZco/h7YJH7KYQOtHt2O0DfQAOp3N+RDdgHBgL1KHvAIifCKXtslIa2HLpu9m3xUzmWbpawkWsg5ZU53iSzICI5Nka804+tonMJSYhZ9L3Qqvbg2fI5ICRPF3FxCNOlmd9ZXDahd4hTI9X9exIbeOECBsQqUTcKI22O4=
+  - secure: dl452p6478X5/Vn8V8uJ+neX5+ygZFEU2Qvenqap4imLSUa7NnviKS9kjSTg1esV8N5JvXXSsYkGdtmmmbGGRcbYsJy4l3Nmnw5we/IxPGFPOhfp3MkRR70fPX+08zmTDziBWRDfj+JpzqNl6XfvSX8fAyx/z5b3q3M4PVWlvuw=
+  - secure: NTNiVjEN6ImqIcAwnHz3DXRU2EksuiY6Xday/pact1Q+EAr4bbqPHh7+jhOdxXGtYNgDFeFHcBCLTaUhJEnjfxfOpkWHvNEF/CX65BTToynBNNz72dZmEcziIpZNYYL125su3v6Vm4Ph1WDKie+rkVgBeIIPgAIL42Y+15mNlg4=

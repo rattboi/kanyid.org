@@ -19,4 +19,22 @@
           (book "Gödel, Escher, Bach: An Eternal Golden Braid"
                 "Douglas R. Hofstadter"
                 "http://www.amazon.com/dp/0465026567")
+          (book "Working Effectively with Legacy Code"
+                "Michael Feathers"
+                "http://www.amazon.com/dp/0131177052")
+          (book "The Pragmatic Programmer: From Journeyman to Master"
+                "Andrew Hunt and David Thomas"
+                "http://pragprog.com/book/tpp/the-pragmatic-programmer")
+          (book "Clean Code: A Handbook of Agile Software Craftsmanship"
+                "Robert C. Martin"
+                "http://www.amazon.com/dp/0132350882")
+          (book "The Cathedral and the Bazaar"
+                "Eric S. Raymond"
+                "http://www.catb.org/~esr/writings/cathedral-bazaar/")
+          (book "The Mythical Man-Month: Essays on Software Engineering"
+                "Frederick P. Brooks Jr."
+                "http://www.amazon.com/dp/0201835959")
+          (book "Beautiful Code: Leading Programmers Explain How They Think"
+                "Andy Oram (Editor) and Greg Wilson (Editor)"
+                "http://www.amazon.com/dp/0596510047")
 ))

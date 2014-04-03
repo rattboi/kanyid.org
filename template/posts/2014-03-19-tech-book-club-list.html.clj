@@ -37,4 +37,7 @@
           (book "Beautiful Code: Leading Programmers Explain How They Think"
                 "Andy Oram (Editor) and Greg Wilson (Editor)"
                 "http://www.amazon.com/dp/0596510047")
+          (book "Real World Haskell"
+                "Bryan O'Sullivan, John Goerzen, and Don Stewart"
+                "http://www.amazon.com/dp/0596514980/")
 ))

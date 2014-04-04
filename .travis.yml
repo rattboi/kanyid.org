@@ -10,5 +10,4 @@ install: sudo apt-get install expect
 script: lein2 with-profile dev misaki --compile
 after_success: bin/deploy.sh
 jdk:
-- openjdk7
 - oraclejdk7

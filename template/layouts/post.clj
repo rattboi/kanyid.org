@@ -8,10 +8,10 @@
   [:script {:type "text/javascript"}
            "(function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://"  username ".disqus.com/embed.js';
+                dsq.src = '//"  username ".disqus.com/embed.js';
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();"]
-  [:noscript "Please enable JavaScript to view the " (link "comments powered by Disqus." "http://disqus.com/?ref_noscript")]])
+  [:noscript "Please enable JavaScript to view the " (link "comments powered by Disqus." "//disqus.com/?ref_noscript")]])
 
 ;; ///// TEMPLATE //////
 

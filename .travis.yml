@@ -4,11 +4,11 @@ env:
   global:
   - secure: QYbG9EYnMh4y2bDOxzye8XzgLxhfnbi/7V97fR+i5G6Th8UCzBJaAtAzcloV/FobYCdwyHyTZLrkI4UmBys+ImQCa7whTeRszkOUPjfeI6DmRyDNmQ5fzYqiBD+soN2vA1ncdSTw9/HI/V3hAdmqag1xE5rxnTe0t9PuBLLuqi0=
   - secure: ksUb4wqvLMpPXHp85dW26dHwvLvxZ5JV6JOxRxluyWxyn1QsDEXYxKLxdiUaDESShjGoH+XJ3rQ9Ra0u/P3xoyc5kE/thMeTN+TvnyXykuv49N8e+CJPV80NP2fCk3l22/MzNBfonsA4FMF0N1sGsm50Ns8pe/OgPxbNubdrkB0=
-  - secure: fXLkWPcynmmVXHtewhcs8HxpY1DuUiPnzyLFyrrdi0/ZZ2YG67SrB3jnjFcYNgznJFfBUqAGueK3et/eeMHxGQnLJh+LrPgw//htdQ93czApdrdtPZ1n5gdOf3j/ydH+GMeXvFO+OUO57Dj1SMSpalRDjFmSUXwkOxOoRGh4bPM=
+  - secure: Nh7N0RA6Rd/keF45B+zpwtm8oxCtFrDM8n/p6TuSblhkBrAOoZs0xbLEhA1d5YC4UXycm9T6HeJRczyi6KxmF+cTy9yjUCUDLDzTJKGQCowdrsJQuPBUaYdvzYbONXwwuSfDItRa90znLBUKcB9gRKNMjBY6m5gVv3SraU6iX7M=
   - secure: aWjSwlyVdFp1F6cBZXYC8IP+LhjpMuoUs2hAVdO8LD3bnd8xAPFoOVLHoLigrvYXaVMqUpGgNbWWot8czvjrIAj7/vCv1Q2qLZJlFvWCqWJqnPFzau6dpihoP79xGVFyDASR92c6/3aG1L/z2XiOMF7e4X1RScYGAMmz3aXJlak=
 before_script: bundle
 script: lein2 with-profile dev misaki --compile
-after_success: bundle exec travis-custom-deploy sftp public_html
+after_success: bundle exec travis-custom-deploy sftp public_html/
 jdk:
 - openjdk7
 - oraclejdk7

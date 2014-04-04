@@ -68,12 +68,12 @@
 ;;  (footer (nav-section (:twitter site)))
 
   (footer  (p {:class "pager"}
-    (if-let [url (:prev-page site)]
-      (link "« Previous page" url)) 
+    (if-let [url (:next-page site)]
+      (link "« Older Posts" url))
     (if (and (:prev-page site) (:next-page site))
       (str  " | ")) 
-    (if-let [url (:next-page site)]
-      (link "Next page »" url)))) 
+    (if-let [url (:prev-page site)]
+      (link "Newer Posts »" url))))
   
 ;;  (link (img "/img/poweredby-misaki.png") "https://github.com/liquidz/misaki"))
   ) 

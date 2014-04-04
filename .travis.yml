@@ -2,10 +2,10 @@ language: clojure
 lein: lein2
 env:
   global:
-  - secure: QYbG9EYnMh4y2bDOxzye8XzgLxhfnbi/7V97fR+i5G6Th8UCzBJaAtAzcloV/FobYCdwyHyTZLrkI4UmBys+ImQCa7whTeRszkOUPjfeI6DmRyDNmQ5fzYqiBD+soN2vA1ncdSTw9/HI/V3hAdmqag1xE5rxnTe0t9PuBLLuqi0=
-  - secure: ksUb4wqvLMpPXHp85dW26dHwvLvxZ5JV6JOxRxluyWxyn1QsDEXYxKLxdiUaDESShjGoH+XJ3rQ9Ra0u/P3xoyc5kE/thMeTN+TvnyXykuv49N8e+CJPV80NP2fCk3l22/MzNBfonsA4FMF0N1sGsm50Ns8pe/OgPxbNubdrkB0=
-  - secure: Nh7N0RA6Rd/keF45B+zpwtm8oxCtFrDM8n/p6TuSblhkBrAOoZs0xbLEhA1d5YC4UXycm9T6HeJRczyi6KxmF+cTy9yjUCUDLDzTJKGQCowdrsJQuPBUaYdvzYbONXwwuSfDItRa90znLBUKcB9gRKNMjBY6m5gVv3SraU6iX7M=
-  - secure: aWjSwlyVdFp1F6cBZXYC8IP+LhjpMuoUs2hAVdO8LD3bnd8xAPFoOVLHoLigrvYXaVMqUpGgNbWWot8czvjrIAj7/vCv1Q2qLZJlFvWCqWJqnPFzau6dpihoP79xGVFyDASR92c6/3aG1L/z2XiOMF7e4X1RScYGAMmz3aXJlak=
+  - secure: RNnQ26d+BjNDnk89Wh+XrAmkElGmbZ+aQexHuvhNQIlMAScAtZrl3Rso+n5dX84ObxPU+XOlCI4niXAfWwwPUSvzhkq9rTAt0GD/X3fctzCH+yLv0rG8ooKFeR47jk5b0IBmCOnu/7Zmg56vhw7v6DjhZkPwcdYLj430o9AOthg=
+  - secure: U4OcTE2w1qXVGbMq7sNgx4NKHwaveL/92RQC+Q3hv3bw0pepTgguEzz5GWciC5x0Vhdl0E2ovmYZvWZinO0wBZCrusAJe9fjxuMtbOhzPzWVR6Suw630WBftG0oNav+ZhbLovcvKJk+FvM4AfZ7OZn4M8pQEug4+Mm6Dd2PAPm8=
+  - secure: GBn/zvk40ak/TVVQQv73NyDanabDY+GXDkA97Cska3lFq9qwsVT8lpbBGCU337hls/IYSltf3jW9nzmxvMkr/jy/aGuYgi6xy7vyIIeF4FT+pw4+TdyuATkdsSwMz3yaul27D1RRK9c5AbCc6wIYV8anbUeKsVpNtPJ+Na5Wv1c=
+  - secure: g6vQyww6H07l5z4j+nf6MGHys6UtEA0H6fBAMAE4WYNWVMzLrS0kjHsEMCYQe27ASe+LAmp7a0e1KrwJIgfSS9CeGq9l3swLqhht7bJUJywP0XVboY5zQeSnpdul55jBLUA+Y6brytzNu2Ug6P2hsklA9lZ6jXoyWGzm+F66nSA=
 before_script: bundle
 script: lein2 with-profile dev misaki --compile
 after_success: bundle exec travis-custom-deploy sftp public_html/

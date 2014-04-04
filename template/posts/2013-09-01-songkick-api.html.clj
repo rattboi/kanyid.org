@@ -82,6 +82,6 @@ CODE
 (h2 "Conclusion")
 (p "So, the Upcoming Events are shown below. The formatting isn't great, but it is functional. I'm curious what it would take to pull some of the templating out of the HTML generation code of the callback, because right now I have to hard-code some things like the styles. Perhaps something like the jQuery or Protype library would be useful for this. In the future, I would like to make an IRC bot that you could query for the same information in a channel. It shouldn't be hard to make a Python wrapper for the entire API, similar to " (link "libsonic" "https://github.com/crustymonkey/py-sonic") ", which I'm using in " (link "Mopidy-Subsonic" "https://github.com/rattboi/mopidy-subsonic") ". I hope you've enjoyed reading this post. I'm still catching up on a few posts that are backlogged, so hopefully there will be more soon.")
 
-(h2 "Subsonic Upcoming Events Calendar")
+(h2 "Songkick Upcoming Events Calendar")
 (songkick-content)
 

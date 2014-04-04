@@ -6,7 +6,7 @@ env:
   - secure: U4OcTE2w1qXVGbMq7sNgx4NKHwaveL/92RQC+Q3hv3bw0pepTgguEzz5GWciC5x0Vhdl0E2ovmYZvWZinO0wBZCrusAJe9fjxuMtbOhzPzWVR6Suw630WBftG0oNav+ZhbLovcvKJk+FvM4AfZ7OZn4M8pQEug4+Mm6Dd2PAPm8=
   - secure: GBn/zvk40ak/TVVQQv73NyDanabDY+GXDkA97Cska3lFq9qwsVT8lpbBGCU337hls/IYSltf3jW9nzmxvMkr/jy/aGuYgi6xy7vyIIeF4FT+pw4+TdyuATkdsSwMz3yaul27D1RRK9c5AbCc6wIYV8anbUeKsVpNtPJ+Na5Wv1c=
   - secure: g6vQyww6H07l5z4j+nf6MGHys6UtEA0H6fBAMAE4WYNWVMzLrS0kjHsEMCYQe27ASe+LAmp7a0e1KrwJIgfSS9CeGq9l3swLqhht7bJUJywP0XVboY5zQeSnpdul55jBLUA+Y6brytzNu2Ug6P2hsklA9lZ6jXoyWGzm+F66nSA=
-install: apt-get install expect
+install: sudo apt-get install expect
 script: lein2 with-profile dev misaki --compile
 after_success: bin/deploy.sh
 jdk:

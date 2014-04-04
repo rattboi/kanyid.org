@@ -11,7 +11,7 @@
 (p "Over the summer, some friends and I are planning on reading some computer texts that are considered required reading. I'll be adding to the post as we come up with other interesting books.")
 
 (ul (list (book "Structure and Interpretation of Computer Programs"
-                "Harold Abelson and Gerald JaySussman with Julie Sussman"
+                "Harold Abelson and Gerald Jay Sussman with Julie Sussman"
                 "http://mitpress.mit.edu/sicp/")
           (book "The Art of UNIX Programming"
                 "Eric S. Raymond"

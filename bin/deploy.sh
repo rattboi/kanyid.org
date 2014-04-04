@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-bin/expect-rsync.sh > /dev/null
+bin/expect-rsync.sh | grep -v expect | grep -v Password

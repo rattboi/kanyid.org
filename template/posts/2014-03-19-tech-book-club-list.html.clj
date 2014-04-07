@@ -40,4 +40,7 @@
           (book "Real World Haskell"
                 "Bryan O'Sullivan, John Goerzen, and Don Stewart"
                 "http://www.amazon.com/dp/0596514980/")
+          (book "Various Academic CS Papers"
+                "Various Authors"
+                "https://github.com/papers-we-love/papers-we-love")
 ))

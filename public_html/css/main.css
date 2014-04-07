@@ -1,6 +1,8 @@
 /* =basic */
 body, h1, h2, h3, h4, p { margin: 0; padding: 0; }
 body, p { font-family: monospace; }
+p { line-height: 140%; }
+li { margin: 0px 0px 3px 0px; }
 
 body {
   background-color: #eee;

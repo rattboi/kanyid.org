@@ -44,6 +44,6 @@
                 "Various Authors"
                 "https://github.com/papers-we-love/papers-we-love")
           (book "Design Patterns: Elements of Reusable Object-Oriented Software"
-                "http://c2.com/cgi/wiki?DesignPatternsBook"
-                "Gang of Four")
+                "Gang of Four"
+                "http://c2.com/cgi/wiki?DesignPatternsBook")
 ))

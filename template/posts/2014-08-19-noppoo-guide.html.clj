@@ -1,5 +1,22 @@
 ; @layout post
 ; @title  Noppoo Choc Mini Guide
-; @tag    keyboard mechanical
+; @tag    mechanical keyboard
 
-(p "Well, I finally did it. I bought a mechanical keyboard from " (link "Massdrop" "https://massdrop.com") ".")
+(h2 "Introduction")
+(p "Well, I finally did it. I bought a mechanical keyboard from " (link "Massdrop" "https://massdrop.com") ". It is a " (link "Choc Mini 2M" "http://www.amazon.com/dp/B00FVTQ1OE/") " with " (link "Cherry MX Blue" "http://deskthority.net/wiki/Cherry_MX_Blue") " switches. As this is my first mechanical keyboard purchase, I really didn't know what to expect. I knew that there would be a few function keys to control some of the features, but I didn't really take the time to read up on them, past noting the fact that there was no way through hardware to rebind caps to escape. After looking at many keyboards, I've made my peace with this fact, but I digress...")
+
+(h2 "Unboxing")
+(p "Once it arrived, I immediately took it out of the box and plugged it in. There was only some bubble packaging, the rubber keyboard cover, a piece of paper with a serial number or something, and a small bag containing a USB cable, a wireless USB receiver, and a keycap puller. Upon plugging in the keyboard, it immediately went red and I could start typing. I really like the feel of the Cherry MX Blue switches, both the tactileness and the feedback from the clickiness. ")
+
+(h2 "The Problem")
+(p "After briefly testing and verifying the basic keypress function was working, I started looking into what the features of the keyboard are. I googled for a manual, and was quickly suprised to find that there isn't one. At least, I wasn't able to find one. It seems a little strange to me that Noppoo doesn't even list this product on their website. After a little more research, I was also surprised to find that there is no wiki covering all the features of the Choc Mini. So, I was left googling for each thing individually, finding bits of information and piecing it together. That was annoying, so I'm compiling the info I find and placing it here.")
+
+(h2 "Media Keys")
+(p "There were certain features of the keyboard that were immediately apparent, like how to use the media keys. There are laser-etched graphics on the top of each key that shows its primary function, and also screenprinted graphics on the front side of the key showing any secondary use. The media keys are in a cluster on the left hand, under the asdf keys, with volume control under the qwe keys. Fn+a/s/d/f controls playback, Fn+q/w/e controls volume. Strangly, within the media key cluster is also Fn+R, which disables the Windows key. This would be a great boon if you are a gamer and were to accidentally hit the Windows key and have it kick you out of your game. For me, this is basically useless, as the Win key controls Awesome, my window manager.")
+
+(h1 "The Top Row")
+(p "Ok, here's where things get interesting. The entire top row of the keyboard all have secondary functions while holding the Fn key. Fn+Esc turns off the keyboard paying attention to the Numlock status. In other words, Numlock state can be on or off, but the keyboard ignores this if you've pressed Fn+Esc. It's pictoral graphic is a number 1 crossed out in a circle. Fn+F1/F7 have mappings to special windows functions, such as bringing up Windows Explorer, a browser, an email client, the search tool, etc. These have no effect on my Arch Linux desktop. I suppose you could remap them to whatever. Fn+F8 maps to the Sleep button on some keyboards. This should be obvious, as it is a picture of the moon. Fn+F9 took me a while to figure out, but it swaps the Capslock key and the Control key. This is a big win if you are an Emacs guy (which I'm not). Fn+F10/F11 are interesting. They control the amount of debounce in the keys. I haven't played with this feature, but if you start finding that you press a key and it shows up twice, you can likely increase the debounce, and the doubled characters should stop. If you increase debounce too much, though, you may start missing legitimate keypresses. Fn+F12 is totally strange. It seems to reset the keyboard, all the way to being re-identified by the OS. Perhaps it does more, and I just haven't fully understood it. Fn+PrtSc is Numlock, with an LED indicator between keys. Fn+Pause is ScrollLock, which I've only actually seen used in Excel, and Fn+Delete is Insert (annoyingly).")
+
+(h1 "Hidden Extras")
+(p "Last but not least, there's one set of 'hidden' Fn key mappings for controlling the brightness of the LED backlighting. Fn+Up/Down control 4 levels of brightness, from Really Bright, to Pretty Bright, to Sorta Bright, to Off.")
+

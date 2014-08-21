@@ -98,3 +98,8 @@ footer { margin: 20px 0 10px; overflow: hidden; }
 
 .page-title { margin: 0.5em 0 0.5em 0; border-bottom: 1px solid #eaeaea; }
 .page-title h1 { color: #444; float: left; font-size: 2em;}
+
+img {
+    padding:1px;
+    border:1px solid #021a40;
+}

@@ -2,10 +2,10 @@ language: clojure
 lein: lein2
 env:
   global:
-  - secure: RNnQ26d+BjNDnk89Wh+XrAmkElGmbZ+aQexHuvhNQIlMAScAtZrl3Rso+n5dX84ObxPU+XOlCI4niXAfWwwPUSvzhkq9rTAt0GD/X3fctzCH+yLv0rG8ooKFeR47jk5b0IBmCOnu/7Zmg56vhw7v6DjhZkPwcdYLj430o9AOthg=
-  - secure: U4OcTE2w1qXVGbMq7sNgx4NKHwaveL/92RQC+Q3hv3bw0pepTgguEzz5GWciC5x0Vhdl0E2ovmYZvWZinO0wBZCrusAJe9fjxuMtbOhzPzWVR6Suw630WBftG0oNav+ZhbLovcvKJk+FvM4AfZ7OZn4M8pQEug4+Mm6Dd2PAPm8=
-  - secure: GBn/zvk40ak/TVVQQv73NyDanabDY+GXDkA97Cska3lFq9qwsVT8lpbBGCU337hls/IYSltf3jW9nzmxvMkr/jy/aGuYgi6xy7vyIIeF4FT+pw4+TdyuATkdsSwMz3yaul27D1RRK9c5AbCc6wIYV8anbUeKsVpNtPJ+Na5Wv1c=
-  - secure: Qbel42TL0vdWW3dScK2JYMQ5crB29GRS7PXUxNu3CHa1xj2SKpZQwEo/j5C21NGfgCWTwuKZ16tSJJJCUUBi/sQLBIJ7KyyYgVAhMKLV+H0Lzz5xfhqSLFH/3+Rg0Rvowr0Lpw63f6PBuqZbVlxnc9mMerAA6v1Wcv9a1Cx+CNk=
+  - secure: FJUAoxZj9wc2i4B34aHW2j6s95jmBW7gZcDjW2IMZ/SjVR7w/EEd2hlhS00Lsh+mURPZ08bWXGW+lL2ndl+gumZkI5qITeCcJ8Gz5+cvU+nfeH1cBYWCP80VbNEkv7uykmLRCM1wRgsznGPbp4B/yPCHPNwr9N+JC4sDXV73FcE=
+  - secure: kk3lA4LlOim06r5oec4cqA/vY1eKid6rG6lQpn5hHFXqq0BC4dbO3ELHkAPw56a0LKyrGBjHfbRpDRpozE3x6rbJSl0P55txwQhDwye6dP3NAv+MM0z31EYqYUvTRHCeLybw/1p2KgiaXU9RhAIb2mMarKCAIKZZZ9hVeGqZouY=
+  - secure: OIy9yo/vB9cIG0GkZB+L3TFy08N0E1/MnZPmA30wykvUkZ/BS1O/jlAfI/MYyGOj+Y5DXKJ+UGO7nU1+Adyl4G7HzbbAMSv5bj2oWv9Ixu5lzohZaatT0+5UBL7Sr9IDnITdBpvbcNLu8YfLaZKRdNt2xwsj6ZCuRZLb2mKYEkQ=
+  - secure: NprW30FiR4TwBcjfRck3VCfM3ul1WFRrTjVku5lAa+re8UCA3DeQt/ZWHRTQ1CVB5qUHixMI1aHsTY6RLluybc7NFl5BIosHTH7an211nLPxWugVL6WlA/F7ACf1/affxWeUU5TgLkpNGhjn3414swNVUIieERLuJRny8Vn1kkc=
 install: sudo apt-get install expect
 script: lein2 with-profile dev misaki --compile
 after_success: bin/deploy.sh

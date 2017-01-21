@@ -8,6 +8,6 @@ env:
   - secure: Y+wvT6SXfeXYHAwEhhh95TwlpdZvo0CmupplxR2P9+5mSPLo8dnjm2HcyH3qSVrstmHdHJMd8Sq0+Jqw9V2+ixyxfphe7QzgYPqD5Bl8spEx8JKizVjj/AGTDmLFFysP23K5eBAEB8utUTQNiTeExUgnh3itQPKBGtVJUZr9jRQ=
 install: sudo apt-get install expect
 script: lein2 with-profile dev misaki --compile
-after_success: bin/deploy.sh
+#after_success: bin/deploy.sh
 jdk:
 - oraclejdk7

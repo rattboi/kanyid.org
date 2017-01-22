@@ -4,3 +4,5 @@ public_html/*
 !public_html/img
 !public_html/favicon
 target/
+
+node_modules/*

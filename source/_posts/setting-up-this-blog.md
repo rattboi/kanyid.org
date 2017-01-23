@@ -1,7 +1,9 @@
 ---
 title: Setting Up This Blog
 date: 2012-12-21
-tags: clojure webdev
+tags: 
+- clojure 
+- webdev
 ---
 
 ## Introduction

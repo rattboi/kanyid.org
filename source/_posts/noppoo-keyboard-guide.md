@@ -1,7 +1,9 @@
 ---
 title: Noppoo Choc Mini Guide
 date: 2014-08-19
-tags: mechanical keyboard
+tags: 
+- mechanical 
+- keyboard
 ---
 
 ## Introduction

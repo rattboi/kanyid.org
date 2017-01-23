@@ -6,8 +6,6 @@ tags:
 - keyboard
 ---
 
-## Introduction
-
 Well, I finally did it; I bought my first mechanical keyboard, a [Noppoo Choc Mini 2M](http://www.amazon.com/dp/B00FVTQ1OE/) with [Cherry MX Blue](http://deskthority.net/wiki/Cherry_MX_Blue) switches from [Massdrop](https://massdrop.com). As this is my first mechanical keyboard, I really didn't know what to expect. I knew that there would be a few function keys to control some of the features, but I didn't really take the time to read up on them, past noting that there was no way through hardware to [rebind the Capslock key to Escape](http://vim.wikia.com/wiki/Avoid_the_escape_key). After looking at many keyboards and failing to find this feature, I've made my peace with it. But I digress...
 
 <img src="/img/noppoo.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>

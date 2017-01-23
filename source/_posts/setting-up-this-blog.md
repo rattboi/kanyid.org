@@ -6,8 +6,6 @@ tags:
 - webdev
 ---
 
-## Introduction
-
 Ok, so my name is Bradon Kanyid, and I'm a Senior Computer Engineering student at [Portland State University](http://pdx.edu) in the [Maseeh College of Engineering and Computer Science ]. I have a lot of interests, mostly computer-related. At the end of fall quarter, I decided that it would be useful to start documenting projects and things I enjoy somewhere online.
 
 ## Where to start?

@@ -4,8 +4,6 @@ date: 2017-01-20
 tags: personal
 ---
 
-# Happy 2017!
-
 Wow, it's really been like two and a half years since I've made a new post. That's no good. Oh well, can't change it now. It's a new year, and I've got a bunch of (hopefully realistic) resolutions, one of which is to blog more. As a way of getting back into it, I'm just going to write about my resolutions, and start from there. I believe my readership is like zero, so this is mostly for personal reasons, but hopefully next year I can come back to this and be happy that at least 50% were accomplished. We shall see...
 
 Here they are, in no specific order:

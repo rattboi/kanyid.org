@@ -1,7 +1,9 @@
 ---
 title: HTPC Build - Part 1 - Hardware
 date: 2013-08-22
-tags: htpc hardware
+tags: 
+- htpc 
+- hardware
 ---
 
 I'm finishing up my yearly summer stint here in [Craig, AK](http://en.wikipedia.org/wiki/Craig,_Alaska), and I thought it might be a good time to actually build that [Home Theater PC](http://en.wikipedia.org/wiki/Home_theater_PC) that I've been dreaming about for the last 3-4 years. For those unfamiliar with HTPCs, the basic idea is to have an all-in-one computer that is good for all media duties that you may have relating to your television. In my case, that means being able to watch movies and TV shows from many sources, including [Netflix](http://www.netflix.com) and [Hulu](http://www.hulu.com) (because I don't have cable), as well as being able to play videogames, both [old](https://en.wikipedia.org/wiki/List_of_video_game_emulators) and [new](http://www.tombraider2013.com/). As I said above, this has been a dream of mine for a few years, and after seeing [Sauerkrause's build](http://random-sequential.blogspot.com/2013/08/gaminghtpc-build-hardware.html), I felt the need to finally spend some of my hard-earned money and commit to the project.

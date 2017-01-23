@@ -1,7 +1,10 @@
 ---
 title: Using Songkick API in Javascript
 date: 2013-09-01
-tags: webdev music javascript
+tags: 
+- webdev 
+- music 
+- javascript
 ---
 
 [Songkick](https://www.songkick.com/) is a music service that finds local concerts based on your personal tastes. You give it some info about what you like, either through an exported iTunes library, Pandora playlist, or Last.fm scrobble history, tell it where you're interested in going, and it lets you know who is playing and where. I've been a happy user for at least two years now, and it's a really good tool for tracking tours and [concert history.](https://www.songkick.com/users/rattboi/gigography)

@@ -1,7 +1,10 @@
 ---
 title: Evil-mode (Part 1)
 date: 2013-01-14
-tags: editors clojure evil-mode
+tags: 
+- editors 
+- clojure 
+- evil-mode
 ---
 
 I've been using [vim](http://www.vim.org/) for the last 4 years regularly as my text editor, and in many ways, vim has permiated all the other tools I use. In any application that I can, I will use vi/vim bindings if they are offered. I use vi-mode emulation in my terminal shell, [zsh](http://www.zsh.org/). I use a vim emulation layer in [Firefox](http://getfirefox.com/) called [Pentadactyl](http://5digits.org/pentadactyl/). I use a pdf reader called [mupdf](http://www.mupdf.com/) that has vim bindings, and the list goes on. Since learning the programming language [Clojure](http://clojure.org/), though, I've been interested in learning the text editor [emacs](http://www.gnu.org/s/emacs/), as there are a lot of Clojure tools designed around emacs. I still have no idea what I'm doing, nonetheless...

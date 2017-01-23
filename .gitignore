@@ -6,3 +6,4 @@ public_html/*
 target/
 
 node_modules/*
+db.json

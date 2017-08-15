@@ -40,22 +40,44 @@ Overall, I'd give myself like a 2/5 for planning, but everything worked out OK i
 
 __UPDATE: I have now received the aformentioned monitor, and took some pictures of the project.__
 
-<img src="/img/atari-fullmod.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+<a href="/img/proj-roundup-pt1/atari-fullmod.jpg">
+<img src="/img/proj-roundup-pt1/atari-fullmod-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+</a>
 <p style="text-align: center;">Full Mod</p>
-<img src="/img/atari-jack-closeup.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+
+<a href="/img/proj-roundup-pt1/atari-jack-closeup.jpg">
+<img src="/img/proj-roundup-pt1/atari-jack-closeup-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 <p style="text-align: center;">Close-up of the added jacks</p>
-<img src="/img/atari-too-close.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+
+<a href="/img/proj-roundup-pt1/atari-too-close.jpg">
+<img src="/img/proj-roundup-pt1/atari-too-close-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 <p style="text-align: center;">RCA Jacks are too close together</p>
-<img src="/img/atari-kickstand.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+</a>
+
+<a href="/img/proj-roundup-pt1/atari-kickstand.jpg">
+<img src="/img/proj-roundup-pt1/atari-kickstand-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 <p style="text-align: center;">Also, when cables are plugged in, you get this kickstand effect</p>
-<img src="/img/atari-kickstand-fix.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+</a>
+
+<a href="/img/proj-roundup-pt1/atari-kickstand-fix.jpg">
+<img src="/img/proj-roundup-pt1/atari-kickstand-fix-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 <p style="text-align: center;">Here's some adapters to 'fix' the kickstand effect</p>
-<img src="/img/atari-at-home.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+</a>
+
+<a href="/img/proj-roundup-pt1/atari-at-home.jpg">
+<img src="/img/proj-roundup-pt1/atari-at-home-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 <p style="text-align: center;">Atari 7800 back in its home</p>
-<img src="/img/atari-on-monitor.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+</a>
+
+<a href="/img/proj-roundup-pt1/atari-on-monitor.jpg">
+<img src="/img/proj-roundup-pt1/atari-on-monitor-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 <p style="text-align: center;">S-Video input on my new Panasonic BT-H1390Y</p>
-<img src="/img/atari-mario-closeup.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+</a>
+
+<a href="/img/proj-roundup-pt1/atari-mario-closeup.jpg">
+<img src="/img/proj-roundup-pt1/atari-mario-closeup-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 <p style="text-align: center;">Close-up of Mario chillin' out</p>
+</a>
 
 [Atari 7800]: https://en.wikipedia.org/wiki/Atari_7800
 [Atari UAV Board]:  http://atariage.com/forums/topic/246613-new-video-upgrade-coming-soon/

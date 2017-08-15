@@ -47,37 +47,38 @@ __UPDATE: I have now received the aformentioned monitor, and took some pictures 
 
 <a href="/img/proj-roundup-pt1/atari-jack-closeup.jpg">
 <img src="/img/proj-roundup-pt1/atari-jack-closeup-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+<a>
 <p style="text-align: center;">Close-up of the added jacks</p>
 
 <a href="/img/proj-roundup-pt1/atari-too-close.jpg">
 <img src="/img/proj-roundup-pt1/atari-too-close-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
-<p style="text-align: center;">RCA Jacks are too close together</p>
 </a>
+<p style="text-align: center;">RCA Jacks are too close together</p>
 
 <a href="/img/proj-roundup-pt1/atari-kickstand.jpg">
 <img src="/img/proj-roundup-pt1/atari-kickstand-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
-<p style="text-align: center;">Also, when cables are plugged in, you get this kickstand effect</p>
 </a>
+<p style="text-align: center;">Also, when cables are plugged in, you get this kickstand effect</p>
 
 <a href="/img/proj-roundup-pt1/atari-kickstand-fix.jpg">
 <img src="/img/proj-roundup-pt1/atari-kickstand-fix-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
-<p style="text-align: center;">Here's some adapters to 'fix' the kickstand effect</p>
 </a>
+<p style="text-align: center;">Here's some adapters to 'fix' the kickstand effect</p>
 
 <a href="/img/proj-roundup-pt1/atari-at-home.jpg">
 <img src="/img/proj-roundup-pt1/atari-at-home-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
-<p style="text-align: center;">Atari 7800 back in its home</p>
 </a>
+<p style="text-align: center;">Atari 7800 back in its home</p>
 
 <a href="/img/proj-roundup-pt1/atari-on-monitor.jpg">
 <img src="/img/proj-roundup-pt1/atari-on-monitor-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
-<p style="text-align: center;">S-Video input on my new Panasonic BT-H1390Y</p>
 </a>
+<p style="text-align: center;">S-Video input on my new Panasonic BT-H1390Y</p>
 
 <a href="/img/proj-roundup-pt1/atari-mario-closeup.jpg">
 <img src="/img/proj-roundup-pt1/atari-mario-closeup-small.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
-<p style="text-align: center;">Close-up of Mario chillin' out</p>
 </a>
+<p style="text-align: center;">Close-up of Mario chillin' out</p>
 
 [Atari 7800]: https://en.wikipedia.org/wiki/Atari_7800
 [Atari UAV Board]:  http://atariage.com/forums/topic/246613-new-video-upgrade-coming-soon/
@@ -118,6 +119,10 @@ Overall, I had fun with this little port project. I learned about ZeroMQ and pro
 
 ### <a name="musicbot"></a>Musicbot for Hangouts
 
+
+<img src="/img/proj-roundup-pt1/hangouts-bot-now-all.jpg" style="width: 50%; display: block; margin-left: auto; margin-right: auto"/>
+<p style="text-align: center;">!now command example output</p>
+
 This project has been a lot of fun. The point of it is to assist in conversations in a music-related Hangouts group chat. I'm not sure why everyone settled on Hangouts as the chat standard for our group, but people like it because the barrier to entry is so low. 
 
 I'm used to IRC and having bots assist in the conversation, so I was a little bummed that everyone wanted to use Hangouts. After a bit of research, however, I found that there are actually a handful of bot frameworks for integration with Hangouts, all leveraging the [Hangups] Python library. I looked over a few, and found one that [hangoutsbot] had the feature-set I was looking for. This came with all the hooks to extend it effectively, as well as a [small ORM called peewee] to abstract out any database functionality. I think peewee is the first ORM I've used in Python, and it has been fairly straightforward. I think I still prefer the feel of something like [hugsql] over ORMs in general, but peewee is painless.
@@ -131,11 +136,17 @@ I've added quite a few integrations at this point, to the following services:
 
 To make this work, we decided as a group to standardize on these services. I guess it probably wouldn't be too hard to also integrate with something like libre.fm for listening habit tracking, but we definitely needed to standardize on a music streaming service, and GPM has the best deal. $15/mo gets you 6 users with a family account. I split the cost with my friend Noah, and we share user accounts to others. For this to work correctly, the musicbot actually needs to be its own user in GPM as well, so keep that in mind, as that eats an account on its own. Theoretically, you could share your personal account, but you may get some strange behavior, because the bot maintains shared playlists and a few other things.
 
+<img src="/img/proj-roundup-pt1/hangouts-bot-recent.jpg" style="width: 50%; display: block; margin-left: auto; margin-right: auto"/>
+<p style="text-align: center;">!recent command example output</p>
+
 A few cool things I've added that I'm pretty proud of are listed below. For a more in-depth overview of all the features, you can find them in the [project's readme].
 
 ```!playlist convert <url>``` will take an embedded Spotify playlist, finds all the songs it can on GPM, and creates a new shared playlist owned by the bot, but available to all. This, I think, is quite useful, as I often stumble across sites that embed Spotify playlists in them, and this makes the playlist easily available to me and my friends. I ended up using [BeautifulSoup] to scrape this data from the embedded playlist pages, then feeding this to the [gmusicapi] library to generate the playlist.
 
 ```!setlist generate <bandname>``` will find the band's most likely setlist using setlist.fm. Note that setlist.fm has a REST api, but this feature isn't available via the API, so it necessitated scraping using [BeautifulSoup]. It seems like that's something I've been doing a lot recently (stay tuned for part 2!).
+
+<img src="/img/proj-roundup-pt1/hangouts-bot-setlist.jpg" style="width: 50%; display: block; margin-left: auto; margin-right: auto"/>
+<p style="text-align: center;">!setlist command example output</p>
 
 I still work on this project whenever I think of another cool feature. It's been really fun, and I enjoy adding features for my (very small) user base.
 

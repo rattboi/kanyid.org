@@ -34,9 +34,9 @@ The last little thing was that the audio lines don't go through the video board,
 
 Overall, I'd give myself like a 2/5 for planning, but everything worked out OK in the end, as I have the sharpest 7800 pixels you've ever seen. You could cut yourself on them. They're gonna look even more awesome once I receive my Panasonic monitor. I didn't grab any "before" shots (see? more proof of poor planning), so here's a couple I found online. 
 
-<img src="/img/rf-composite-comparison.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+<img src="/img/proj-roundup-pt1/rf-composite-comparison.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 
-<img src="/img/rf-svideo-comparison.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
+<img src="/img/proj-roundup-pt1/rf-svideo-comparison.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto"/>
 
 __UPDATE: I have now received the aformentioned monitor, and took some pictures of the project.__
 

@@ -1,6 +1,6 @@
 ---
 title: Musicbot for Hangouts
-date: 2017-08-15
+date: 2017/08/15 00:00:03
 tags: 
  - projects 
  - programming 

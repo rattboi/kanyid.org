@@ -1,6 +1,6 @@
 ---
 title: Zenith TV Interface
-date: 2017-08-15
+date: 2017/08/15 00:00:02
 tags: 
  - projects
  - hardware

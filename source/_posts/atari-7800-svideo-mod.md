@@ -1,6 +1,6 @@
 ---
 title: Atari 7800 UAV Installation
-date: 2017-08-15
+date: 2017/08/15 00:00:01
 tags: 
  - projects 
  - hardware
